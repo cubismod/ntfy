@@ -1,0 +1,13 @@
+base-url: "https://cube-ntfy.fly.dev"
+upstream-base-url: "https://ntfy.sh"
+
+behind-proxy: true
+
+listen-http: ":2586"
+
+cache-file: "/ntfy/cache.db"
+attachment-cache-dir: "/ntfy/attachments"
+attachment-total-size-limit: "1G"
+
+auth-file: "/ntfy/user.db"
+auth-default-access: "deny-all"
