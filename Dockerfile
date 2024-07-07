@@ -3,7 +3,7 @@ FROM python:3.11.1-bullseye
 WORKDIR /src/app
 
 ARG arch=linux_amd64.deb
-ARG ver=2.8.0
+ARG ver=2.11.0
 
 RUN python3 -m pip install supervisor
 
