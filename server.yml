@@ -1,4 +1,4 @@
-base-url: "https://cube-ntfy.fly.dev"
+base-url: "https://ntfy.cubemoji.art"
 upstream-base-url: "https://ntfy.sh"
 
 behind-proxy: true
