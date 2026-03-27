@@ -20,9 +20,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@61b9e3751b92087fd0b06925ba6dd6314e06f089 # master
       - name: Kaniko build Dockerfile
-        uses: aevea/action-kaniko@master
+        uses: aevea/action-kaniko@a1981759140e6f28822c1632a19d17fd24dd637e # master
         with:
           registry: ghcr.io
           password: ${{ secrets.GITHUB_TOKEN }}
